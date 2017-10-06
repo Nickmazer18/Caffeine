@@ -1,0 +1,57 @@
+/*Nick's Css*/
+
+body {
+  background: gray;
+  font: 26px;
+  font-family: serif, "Times New Roman";
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav-header {
+  font-weight: bold;
+  background-color: #8FBC8F;
+  box-shadow: 0 0 6px black;
+  position: fixed;
+  height: 60px;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  padding-top: 10px;
+  z-index: 999;
+}
+
+.btn {
+  background-color: gray;
+  border: 3px solid #444444;
+  border-radius: 5px;
+  color: white;
+  font-family: verdana;
+  padding: 6px 20px;
+  margin-left: 10px;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.3s background-color ease-in-out;
+}
+
+.btn:hover {
+  background-color: #B0C4DE;
+  transition: 0.3s background-color ease-in-out;
+}
+
+.bodyheading h1{
+  margin-top: 85px;
+  width: 100%;
+  text-align: center;
+  border: 2px dashed #B0C4DE;
+}
+
+.paragraph{
+  width: 100%;
+  text-align: left;
+}
+
+.foottext footer{
+  width: 100%;
+  text-align: center;
+}
