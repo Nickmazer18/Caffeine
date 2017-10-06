@@ -10,3 +10,12 @@
   text-decoration: none;
   padding:10px;
 }
+
+.home-header {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.home-title {
+  text-align: center;
+}
