@@ -117,7 +117,15 @@ body {
 
 width: 33%;
 height: auto;
-padding: 10px;
+padding: 20px;
 
   display: block;
+}
+
+.cola, .diet-soda, .flavored-soda h2 {
+  font-size: 20px;
+}
+
+.soda-paragraph {
+  font-size: 30px;
 }
