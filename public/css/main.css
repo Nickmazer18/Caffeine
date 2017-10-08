@@ -112,20 +112,35 @@ body {
   font-size: 40px;
 
 }
+.diet-graph {
 
-.cola, .diet-soda, .flavored-soda {
-
-width: 33%;
-height: auto;
-padding: 20px;
-
-  display: block;
+margin-left: 85px;
+padding-top: 95px;
 }
 
-.cola, .diet-soda, .flavored-soda h2 {
-  font-size: 20px;
+
+.cola-graph {
+  margin-left: 85px;
+  margin-bottom: 20px;
+
+}
+
+.flav-graph {
+  margin-left: 85px;
+  padding-top: 148px;
+  padding-bottom: 200px;
+}
+
+.cola-picture, .diet-picture, .flavored-picture {
+
+  float: left;
+  clear: left;
+  margin-right: 20px;
+  padding-bottom: 40px;
+
 }
 
 .soda-paragraph {
   font-size: 30px;
+  padding-bottom: 20px;
 }
