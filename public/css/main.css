@@ -115,5 +115,7 @@ body {
 
 .cola, .diet, .flavored-soda {
   float: left;
+width: 100%;
+  height: auto;
   display: block;
 }
