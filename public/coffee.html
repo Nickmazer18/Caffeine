@@ -6,6 +6,24 @@
   <title>Tea Party</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <style>
+  .facts {
+    list-style-type: none;
+  }
+  ul.facts li:before{
+   content: '';
+   display: inline-block;
+   height: 25px;
+   width: 36px;
+   background-image: url(img/bean.png);
+   background-repeat: no-repeat;
+   padding-left: 10px;
+}
+  footer {
+    position: fixed;
+    bottom:0px;
+  }
+  </style>
 </head>
 
 <body>
@@ -25,12 +43,22 @@
 
   <article>
 
-    <div class="bodyheading">
-      <h1>Welcome to our Tea Party</h1>
+    <div class=" coffee bodyheading">
+      <h1>Coffee Facts</h1>
     </div>
 
     <div class="coffee paragraph">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi obcaecati reiciendis ea dolorem officia saepe distinctio nihil fugit, tenetur accusantium at, facere autem et voluptate commodi corporis blanditiis, vitae non.</p>
+      <p>
+        <ul class="facts">
+          <li>Caffeinated coffee cuts mouth and throat cancer risk by 50%.</li>
+          <li>Coffee can reduce the risk of stroke as much as 22%.</li>
+          <li>Shown to reduce the risk of several types of cancer.</li>
+          <li>Heart rhythm disturbance hospitalizations decrease with coffee drinkers.</li>
+          <li>Coffee decreases the risk of type 2 diabetes.</li>
+      </ul>
+    </p>
+
+
     </div>
 
 
@@ -38,7 +66,7 @@
 
   <div class="coffee foottext">
     <footer>
-      Footer Content here
+      Nick
     </footer>
   </div>
 
