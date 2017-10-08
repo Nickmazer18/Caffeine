@@ -111,5 +111,9 @@ body {
   text-align: center;
   font-size: 40px;
 
+}
 
+.cola, .diet, .flavored-soda {
+  float: left;
+  display: block;
 }
