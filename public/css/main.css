@@ -113,14 +113,15 @@ body {
 
 }
 
-.cola, .diet-soda, .flavored-soda {
+.cola, .diet-soda, .flavored-soda, {
 
 width: 33%;
 height: auto;
 padding: 20px;
-
-  display: block;
+display: inline-block;
 }
+
+
 
 .cola, .diet-soda, .flavored-soda h2 {
   font-size: 20px;
