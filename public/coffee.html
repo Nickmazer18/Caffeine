@@ -7,14 +7,40 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <style>
+  /* Coffee Style Overrides */
   body {
     background: url(img/coffeebg.jpg);
     color:#fff;
     font-family: "Helvetica",sans-serif;
+    width:100%;
   }
+  header .btn{
+    font-family: "Helvetica",sans-serif;
+  }
+  header a.btn:not(:first-child) {
+  float:right;
+  }
+  .btn {
+    background-color: #864d39;
+  }
+  .nav-header {
+    padding-right: 10px;
+    background-color: #290d0d;
+  }
+  footer {
+    position: fixed;
+    bottom:0px;
+    height:25px;
+    padding: 3px 0px;
+    background-color: #B0C4DE;
+    color: #864d39;
+  }
+
+  /* Unique Page Styles */
   .facts {
     list-style-type: none;
   }
+
   ul.facts li:before{
    content: '';
    display: inline-block;
@@ -24,16 +50,21 @@
    background-repeat: no-repeat;
    padding-left: 10px;
 }
-  footer {
-    position: fixed;
-    bottom:0px;
-  }
+article {
+  background: #fff;
+  padding: 20px;
+  color: #864d39;
+}
+a.donatebtn {
+  color: #b0c3de;
+  padding-left: 40px;
+}
   </style>
 </head>
 
 <body>
 
-
+<div class="container">
   <nav>
     <header>
       <div class="nav-header">
@@ -47,8 +78,7 @@
 
 
   <article>
-
-    <div class=" coffee bodyheading">
+    <div class="coffee bodyheading">
       <h1>Coffee Facts</h1>
     </div>
 
@@ -61,21 +91,17 @@
           <li>Heart rhythm disturbance hospitalizations decrease with coffee drinkers.</li>
           <li>Coffee decreases the risk of type 2 diabetes.</li>
       </ul>
+      <a class="donatebtn" href="#">Donate Here to Keep Caffiene Alive</a>
     </p>
-
-
     </div>
-
-
   </article>
 
   <div class="coffee foottext">
     <footer>
-      Nick
+      &copy; 2017 Fatima, Nick, Mike of NYCDA WDI
     </footer>
   </div>
 
-
+</div>
 </body>
-
 </html>
